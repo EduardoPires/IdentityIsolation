@@ -1,0 +1,76 @@
+﻿@model IEnumerable<EP.IdentityIsolation.Domain.Entities.Usuario>
+
+@{
+    ViewBag.Title = "Lista de Usuários";
+}
+
+<h2>@ViewBag.Title</h2>
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Email)
+        </th>
+        <th>
+            @Html.DisplayName("Confirmado")
+        </th>
+        <th>
+            @Html.DisplayName("Telefone")
+        </th>
+        <th>
+            @Html.DisplayName("Telefone Confirmado")
+        </th>
+        <th>
+            @Html.DisplayName("Two Factor")
+        </th>
+        <th>
+            @Html.DisplayName("Fim do Bloqueio")
+        </th>
+        <th>
+            @Html.DisplayName("Lock")
+        </th>
+        <th>
+            @Html.DisplayName("Tentativas Inválidas")
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.UserName)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Email)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.EmailConfirmed)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.PhoneNumber)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.PhoneNumberConfirmed)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.TwoFactorEnabled)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.LockoutEndDateUtc)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.LockoutEnabled)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.AccessFailedCount)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.UserName)
+        </td>
+        <td>
+            @Html.ActionLink("Details", "Details", new { id=item.Id })
+        </td>
+    </tr>
+}
+
+</table>
