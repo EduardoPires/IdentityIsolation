@@ -7,6 +7,7 @@ using EP.IdentityIsolation.Domain.Interface.Repository;
 
 namespace EP.IdentityIsolation.MVC.Controllers
 {
+    [Authorize]
     public class UsuariosController : Controller
     {
         private readonly IUsuarioRepository _usuarioRepository;
