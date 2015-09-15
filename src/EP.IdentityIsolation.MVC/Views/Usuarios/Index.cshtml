@@ -32,9 +32,7 @@
         <th>
             @Html.DisplayName("Tentativas Inválidas")
         </th>
-        <th>
-            @Html.DisplayNameFor(model => model.UserName)
-        </th>
+        <th></th>
         <th></th>
     </tr>
 
@@ -65,10 +63,10 @@
             @Html.DisplayFor(modelItem => item.AccessFailedCount)
         </td>
         <td>
-            @Html.DisplayFor(modelItem => item.UserName)
+            @Html.ActionLink("Detalhes", "Details", new {id = item.Id})
         </td>
         <td>
-            @Html.ActionLink("Details", "Details", new { id=item.Id })
+            @Html.ActionLink("Desativar Lock", "DesativarLock", new { id = item.Id })
         </td>
     </tr>
 }

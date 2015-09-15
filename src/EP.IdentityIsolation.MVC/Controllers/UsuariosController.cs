@@ -28,5 +28,11 @@ namespace EP.IdentityIsolation.MVC.Controllers
         {
             return View(_usuarioRepository.ObterPorId(id));
         }
+
+        public ActionResult DesativarLock(string id)
+        {
+            _usuarioRepository.DesativarLock(id);
+            return RedirectToAction("Index");
+        }
     }
 }

@@ -8,5 +8,6 @@ namespace EP.IdentityIsolation.Domain.Interface.Repository
     {
         Usuario ObterPorId(string id);
         IEnumerable<Usuario> ObterTodos();
+        void DesativarLock(string id);
     }
 }
