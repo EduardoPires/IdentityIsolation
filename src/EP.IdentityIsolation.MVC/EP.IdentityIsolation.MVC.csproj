@@ -127,6 +127,7 @@
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
+    <Compile Include="Controllers\RolesAdminController.cs" />
     <Compile Include="Controllers\UsuariosController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -193,6 +194,11 @@
     <Content Include="Views\Account\DisplayEmail.cshtml" />
     <Content Include="Views\Usuarios\Index.cshtml" />
     <Content Include="Views\Usuarios\Details.cshtml" />
+    <Content Include="Views\RolesAdmin\Create.cshtml" />
+    <Content Include="Views\RolesAdmin\Delete.cshtml" />
+    <Content Include="Views\RolesAdmin\Details.cshtml" />
+    <Content Include="Views\RolesAdmin\Edit.cshtml" />
+    <Content Include="Views\RolesAdmin\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
