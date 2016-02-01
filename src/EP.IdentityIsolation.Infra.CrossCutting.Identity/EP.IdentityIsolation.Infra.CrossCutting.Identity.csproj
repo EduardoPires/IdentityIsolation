@@ -86,6 +86,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Configuration\ApplicationRoleManager.cs" />
     <Compile Include="Configuration\ApplicationUserManager.cs" />
     <Compile Include="Configuration\EmailService.cs" />
     <Compile Include="Configuration\ApplicationSignInManager.cs" />
@@ -110,6 +111,7 @@
     <Compile Include="Model\ConfigureTwoFactorViewModel.cs" />
     <Compile Include="Model\RegisterViewModel.cs" />
     <Compile Include="Model\ResetPasswordViewModel.cs" />
+    <Compile Include="Model\RoleViewModel.cs" />
     <Compile Include="Model\SendCodeViewModel.cs" />
     <Compile Include="Model\SetPasswordViewModel.cs" />
     <Compile Include="Model\UserInfoViewModel.cs" />
