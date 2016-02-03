@@ -16,7 +16,6 @@ using Microsoft.Owin.Security.OAuth;
 
 namespace EP.IdentityIsolation.API.Controllers
 {
-    [Authorize]
     [RoutePrefix("api/account")]
     public class AccountController : ApiController
     {
@@ -24,7 +23,6 @@ namespace EP.IdentityIsolation.API.Controllers
         
         private readonly ApplicationUserManager _userManager;
         private readonly ISecureDataFormat<AuthenticationTicket> _accessTokenFormat;
-
 
         public AccountController(ApplicationUserManager userManager,
             ISecureDataFormat<AuthenticationTicket> accessTokenFormat)

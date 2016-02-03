@@ -5,6 +5,7 @@ using EP.IdentityIsolation.Infra.CrossCutting.Identity.Model;
 using EP.IdentityIsolation.Infra.Data.Repository;
 using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.EntityFramework;
+using Microsoft.Owin.Security;
 using SimpleInjector;
 
 namespace EP.IdentityIsolation.Infra.CrossCutting.IoC
@@ -19,6 +20,7 @@ namespace EP.IdentityIsolation.Infra.CrossCutting.IoC
             container.RegisterPerWebRequest<ApplicationRoleManager>();
             container.RegisterPerWebRequest<ApplicationUserManager>();
             container.RegisterPerWebRequest<ApplicationSignInManager>();
+            container.RegisterPerWebRequest<ISecureDataFormat<AuthenticationTicket>>(() => new FakeTicket());
             
             container.RegisterPerWebRequest<IUsuarioRepository, UsuarioRepository>();
         } 
