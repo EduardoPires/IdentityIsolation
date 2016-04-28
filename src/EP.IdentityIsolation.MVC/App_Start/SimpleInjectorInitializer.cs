@@ -20,7 +20,7 @@ namespace EP.IdentityIsolation.MVC.App_Start
         {
             var container = new Container();
             container.Options.DefaultScopedLifestyle = new WebRequestLifestyle();
-            
+
             // Chamada dos módulos do Simple Injector
             InitializeContainer(container);
 
@@ -37,15 +37,17 @@ namespace EP.IdentityIsolation.MVC.App_Start
             });
 
             container.RegisterMvcControllers(Assembly.GetExecutingAssembly());
-            
+
             container.Verify();
-            
+
             DependencyResolver.SetResolver(new SimpleInjectorDependencyResolver(container));
         }
-     
+
         private static void InitializeContainer(Container container)
         {
+
             BootStrapper.RegisterServices(container);
         }
     }
+
 }

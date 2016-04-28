@@ -1,0 +1,4 @@
+D:\Github\IdentityIsolation\src\EP.IdentityIsolation.Domain\bin\Debug\EP.IdentityIsolation.Domain.dll
+D:\Github\IdentityIsolation\src\EP.IdentityIsolation.Domain\bin\Debug\EP.IdentityIsolation.Domain.pdb
+D:\Github\IdentityIsolation\src\EP.IdentityIsolation.Domain\obj\Debug\EP.IdentityIsolation.Domain.dll
+D:\Github\IdentityIsolation\src\EP.IdentityIsolation.Domain\obj\Debug\EP.IdentityIsolation.Domain.pdb

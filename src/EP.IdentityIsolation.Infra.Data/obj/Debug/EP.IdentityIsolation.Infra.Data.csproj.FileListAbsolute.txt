@@ -1,0 +1,12 @@
+D:\Github\IdentityIsolation\src\EP.IdentityIsolation.Infra.Data\bin\Debug\EP.IdentityIsolation.Infra.Data.dll.config
+D:\Github\IdentityIsolation\src\EP.IdentityIsolation.Infra.Data\bin\Debug\EP.IdentityIsolation.Infra.Data.dll
+D:\Github\IdentityIsolation\src\EP.IdentityIsolation.Infra.Data\bin\Debug\EP.IdentityIsolation.Infra.Data.pdb
+D:\Github\IdentityIsolation\src\EP.IdentityIsolation.Infra.Data\bin\Debug\EntityFramework.dll
+D:\Github\IdentityIsolation\src\EP.IdentityIsolation.Infra.Data\bin\Debug\EntityFramework.SqlServer.dll
+D:\Github\IdentityIsolation\src\EP.IdentityIsolation.Infra.Data\bin\Debug\EP.IdentityIsolation.Domain.dll
+D:\Github\IdentityIsolation\src\EP.IdentityIsolation.Infra.Data\bin\Debug\EP.IdentityIsolation.Domain.pdb
+D:\Github\IdentityIsolation\src\EP.IdentityIsolation.Infra.Data\bin\Debug\EntityFramework.xml
+D:\Github\IdentityIsolation\src\EP.IdentityIsolation.Infra.Data\bin\Debug\EntityFramework.SqlServer.xml
+D:\Github\IdentityIsolation\src\EP.IdentityIsolation.Infra.Data\obj\Debug\EP.IdentityIsolation.Infra.Data.csprojResolveAssemblyReference.cache
+D:\Github\IdentityIsolation\src\EP.IdentityIsolation.Infra.Data\obj\Debug\EP.IdentityIsolation.Infra.Data.dll
+D:\Github\IdentityIsolation\src\EP.IdentityIsolation.Infra.Data\obj\Debug\EP.IdentityIsolation.Infra.Data.pdb
