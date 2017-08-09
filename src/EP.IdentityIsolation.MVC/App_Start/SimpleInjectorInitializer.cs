@@ -33,7 +33,6 @@ namespace EP.IdentityIsolation.MVC.App_Start
                     return new OwinContext().Authentication;
                 }
                 return HttpContext.Current.GetOwinContext().Authentication;
-
             });
 
             container.RegisterMvcControllers(Assembly.GetExecutingAssembly());
