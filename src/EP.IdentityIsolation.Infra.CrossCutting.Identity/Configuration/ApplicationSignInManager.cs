@@ -4,7 +4,6 @@ using EP.IdentityIsolation.Infra.CrossCutting.Identity.Model;
 using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin;
 using Microsoft.Owin.Security;
-using Microsoft.Owin.Security.OAuth;
 
 namespace EP.IdentityIsolation.Infra.CrossCutting.Identity.Configuration
 {
@@ -17,7 +16,7 @@ namespace EP.IdentityIsolation.Infra.CrossCutting.Identity.Configuration
 
         public override Task<ClaimsIdentity> CreateUserIdentityAsync(ApplicationUser user)
         {
-            return user.GenerateUserIdentityAsync((ApplicationUserManager)UserManager, OAuthDefaults.AuthenticationType);
+            return user.GenerateUserIdentityAsync((ApplicationUserManager)UserManager);
         }
 
         public static ApplicationSignInManager Create(IdentityFactoryOptions<ApplicationSignInManager> options, IOwinContext context)
