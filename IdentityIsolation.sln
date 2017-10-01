@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.24720.0
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0 - Presentation", "0 - Presentation", "{4FA8228A-D5BD-4AA0-A613-B57F506684A7}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Presentation", "1 - Presentation", "{4FA8228A-D5BD-4AA0-A613-B57F506684A7}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Domain", "2 - Domain", "{499A6D70-99FE-418E-BCBB-D9B260C3E642}"
 EndProject
@@ -22,12 +22,6 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EP.IdentityIsolation.Domain", "src\EP.IdentityIsolation.Domain\EP.IdentityIsolation.Domain.csproj", "{659259FE-26B5-4868-935C-B4A08BCDD924}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EP.IdentityIsolation.Infra.Data", "src\EP.IdentityIsolation.Infra.Data\EP.IdentityIsolation.Infra.Data.csproj", "{7452498E-395C-4BEC-87AF-1B2B3AA8BD10}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EP.IdentityIsolation.API", "src\EP.IdentityIsolation.API\EP.IdentityIsolation.API.csproj", "{A5B388D9-1F4C-49C2-9FC9-6C82B181B0DD}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Services", "1 - Services", "{9D33836F-5D10-4ADB-8C5F-BD45BE9EC06D}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EP.IdentityIsolation.SPA", "src\EP.IdentityIsolation.SPA\EP.IdentityIsolation.SPA.csproj", "{434F1C41-7729-4BBB-83DB-C897829FDB98}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -55,14 +49,6 @@ Global
 		{7452498E-395C-4BEC-87AF-1B2B3AA8BD10}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7452498E-395C-4BEC-87AF-1B2B3AA8BD10}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7452498E-395C-4BEC-87AF-1B2B3AA8BD10}.Release|Any CPU.Build.0 = Release|Any CPU
-		{A5B388D9-1F4C-49C2-9FC9-6C82B181B0DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A5B388D9-1F4C-49C2-9FC9-6C82B181B0DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A5B388D9-1F4C-49C2-9FC9-6C82B181B0DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A5B388D9-1F4C-49C2-9FC9-6C82B181B0DD}.Release|Any CPU.Build.0 = Release|Any CPU
-		{434F1C41-7729-4BBB-83DB-C897829FDB98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{434F1C41-7729-4BBB-83DB-C897829FDB98}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{434F1C41-7729-4BBB-83DB-C897829FDB98}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{434F1C41-7729-4BBB-83DB-C897829FDB98}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -75,7 +61,5 @@ Global
 		{73AAEC7C-9DF5-457A-8096-E2B915B4FAF2} = {4FA8228A-D5BD-4AA0-A613-B57F506684A7}
 		{659259FE-26B5-4868-935C-B4A08BCDD924} = {499A6D70-99FE-418E-BCBB-D9B260C3E642}
 		{7452498E-395C-4BEC-87AF-1B2B3AA8BD10} = {A7D2FB6D-E397-4846-8E93-715AA638AE6F}
-		{A5B388D9-1F4C-49C2-9FC9-6C82B181B0DD} = {9D33836F-5D10-4ADB-8C5F-BD45BE9EC06D}
-		{434F1C41-7729-4BBB-83DB-C897829FDB98} = {4FA8228A-D5BD-4AA0-A613-B57F506684A7}
 	EndGlobalSection
 EndGlobal
